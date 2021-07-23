@@ -17,7 +17,7 @@ function render(input, out, __component, component, state) {
     marko_attr("value", data.id) +
     "></div><div class=form-group><input type=text name=nome placeholder=Nome" +
     marko_attr("value", data.nome) +
-    "></div><div class=form-group><input type=email name=emai placeholder=E-mail" +
+    "></div><div class=form-group><input type=email name=email placeholder=E-mail" +
     marko_attr("value", data.email) +
     "></div><div class=form-group><select name=curso value><option value" +
     marko_attr("selected", data.curso == "") +
